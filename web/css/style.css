@@ -170,7 +170,7 @@ p {
   padding: 20px;
 }
 
-.cta_produtos{
+.cta_produtos, .cta_portfolio{
   padding-top: 20px;
   text-align: center;
   clear: both;
@@ -178,4 +178,29 @@ p {
 
 .cta_produtos p {
   margin-bottom: 20px;
+}
+
+/* PORTFÓLIO */
+
+.portfolio{
+  width: 100%;
+  background: #000;
+  padding: 40px 0;
+}
+
+.portfolio .subtitulo{
+  color: #fec63e;
+}
+
+.portfolio .subtitulo:after{
+  background: #fec63e;
+}
+
+.portfolio_lista li:last-child {
+  margin-top: 20px;
+}
+
+.portfolio .cta_portfolio p{
+  margin-bottom: 20px;
+  color: #fff;
 }
