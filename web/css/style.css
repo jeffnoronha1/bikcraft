@@ -15,7 +15,7 @@ img {
 }
 
 .btn {
-  border: 3px solid #fec63e;
+  border: 4px solid #fec63e;
   padding: 10px 30px;
   color: #fec63e;
   font-size: 14px;
@@ -197,6 +197,10 @@ img {
   text-align: center;
 }
 
+.produtos_lista li img {
+  margin: 0 auto;
+}
+
 /* Necessário para centralizar as imagens */
 .produtos_lista li img {
   margin: 0 auto;
@@ -372,7 +376,7 @@ img {
 
 .footer_redes ul li a {
   display: block;
-  border: 2px solid #fec63e;
+  border: 4px solid #fec63e;
   padding: 10px;
 }
 
